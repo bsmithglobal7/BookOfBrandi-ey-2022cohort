@@ -1,0 +1,193 @@
+/*index.html page*/
+
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: purple;
+}
+
+h1:hover { color: rgb(243, 134, 243);
+    background-color:azure;
+
+}
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:darkorchid;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: purple;
+        border-radius: 50%;
+      }
+
+.linkedin {
+        background-color: yellow;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          border-color: red;
+          border-radius: 10mm;
+          outline-style: dashed;
+          outline-color: black;
+          margin-left: 50%;
+          }
+        
+          .linkedin {
+            color: white;
+            cursor: pointer;
+            background-color: black;
+            
+        
+        }
+        
+        
+
+.books {margin-left: 20%;}
+
+
+/*FAVORITES.html page*/
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* Style the header */
+header {
+  background-color: rgb(250, 1, 1);
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: pink;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: pink;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: upper-roman;;
+  padding: 5;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 5cm;
+  }
+}
+
+
+
+
+
+/*Contact.html page*/
+
+.homeButton {background-color:pink;
+padding: 1%; margin-left: 90%;}
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 24px;
+        border: 1px solid #ff62e5;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: bold;
+        
+      }
+   
+  .Name {color: azure;}
+    
+    input[type=submit] {
+        background-color: #ff62e5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family:Georgia,'Times New Roman', Times, serif;
+    font-weight: bolder;}
+    
+    input[type=submit]:hover {
+        background-color: #ff62e5;}
+    
+    .container {
+            border-radius: 10px;
+            background-color: #9b00af;
+            padding: 40px;}
+
+
+            /* About Page */
+.container2 {
+    border-radius: 50%; background-color: aqua; box-shadow: #9b00af;
+}
