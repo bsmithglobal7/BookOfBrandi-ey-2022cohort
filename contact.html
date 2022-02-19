@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Book Of Brandi</title>
+        <title>Contact Brandi</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-    
+        <h1 id="contactPageHdr" style="text-align: center;">Get in touch with me! </h1>
+
+<!-- navigation  -->
+
+<a class="homeButton" href="index.html" role="button">HOME PAGE</a>
+
+<!-- contact input  -->
+
 <div class="container">
     <form action="action_page.php">
 
-        <label for="fname">First Name</label>
+        <label for="fname" class="Name">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name...">
 
-        <label for="lname">Last Name</label>
+        <label for="lname" class="Name">Last Name </label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <label for="country">Country</label>
+        <label for="country" class="Name">Country</label>
         <select id="country" name="country">
             <option value="wakanda">Wakanda</option>
             <option value="australia">Austrailia</option>
@@ -25,7 +32,7 @@
             <option value="usa">USA</option>
   </select>
 <br/>
-        <label for="subject">Subject</label>
+        <label for="subject" class="Name">Subject</label>
         <textarea id="subject" name="subject" placeholder="So, what do you think about my portfolio? Questions for me..." style="height:200px"></textarea>
     
         <input type="submit" value="Submit">
